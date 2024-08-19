@@ -1,0 +1,10 @@
+{% extends "base/base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block columna8 %}
+<div class="d-flex justify-content-center">
+    <a href="{{ url_for('altaUsuario') }}" class="btn btn-primary m-2">Ingresar Usuario</a>
+    <a href="{{ url_for('listarUsuarios') }}" class="btn btn-secondary m-2">Listar Usuarios</a>
+</div>
+{% endblock %}
